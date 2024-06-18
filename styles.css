@@ -1,0 +1,77 @@
+body {	
+	
+	background-image: url('./images/forest_background.jpg');
+	font-size: 160%;
+	font-family: tempus sans itc;
+}
+
+h1 {
+	font-family: ink free;
+	text-align: center;
+	font-size: 300%;
+	color: white;
+}
+
+.top {
+	font-family: magneto;
+	background-color: #F8DEFF;
+	color: black;
+	-webkit-text-stroke: 0.5px white;
+	border: 2px solid black;
+	padding: 5px;
+	padding-left: 20px;
+	margin: 20px;
+}
+
+.container-image {
+	float: right;
+	margin-top: 40px;
+	object-fit: contain;
+	padding-right: 150px;
+
+}
+
+.container {
+	-webkit-text-stroke: 1px black;	
+	background-color: #F8DEFF;	
+	color: white;
+	border: 5px dotted black;
+	margin: 20px;	
+	padding: 20px;	
+	float: left;
+}
+
+a:link {
+	color: blue;
+}
+
+a:hover {
+	color: white;
+	-webkit-text-stroke: 0.5px white;
+}
+
+a:visited {
+	color: red;
+}
+
+table {
+	outline: 8px solid pink;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+th, td {
+	border-collapse: collapse;
+	background-color: #F8DEFF;
+}
+
+.course-descriptions {
+	background-color: #F8DEFF;
+	color: black;
+	border: 5px dotted black;
+	padding: 5px;
+	padding-left: 20px;
+	margin: 20px;
+}
